@@ -1,0 +1,10 @@
+/* Place all global styles into this file, i.e. styles that apply across the entire project. Example: font-styles. */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: url(assets/images/bg-desktop.svg) no-repeat center center fixed;
+  background-size: cover;
+}
