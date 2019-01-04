@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-html {
-  background: url(assets/images/bg-desktop.svg) no-repeat center center fixed;
-  background-size: cover;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
 }

@@ -1,7 +1,11 @@
-/* Use these mixins when creating break points for responsive design, or for clearfix on elements. */
+/* Use these mixins when creating break points for responsive design, or for clearfix on elements.
+   Example: 
+   @mixin atMedium {
+     font-size: 20px;
+    } */
 
 @define-mixin atSmall {
-    @media (min-width: 530px) {
+    @media (min-width: 375px) {
         @mixin-content;
     }
 }
@@ -13,7 +17,7 @@
 }
 
 @define-mixin atLarge {
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
         @mixin-content;
     } 
 }

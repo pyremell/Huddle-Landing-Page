@@ -359,16 +359,35 @@ template {
 }
 /* Put Things Like Reusable Color Variables Here. Example: 
 $mainBlue: blue; */
-/* Use these mixins when creating break points for responsive design, or for clearfix on elements. */
+/* Use these mixins when creating break points for responsive design, or for clearfix on elements.
+   Example: 
+   @mixin atMedium {
+     font-size: 20px;
+    } */
 /* Place all global styles into this file, i.e. styles that apply across the entire project. Example: font-styles. */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-html {
-  background: url(assets/images/bg-desktop.svg) no-repeat center center fixed;
-  background-size: cover;
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: white;
 }
 .header {
   
 }
+@media (min-width: 375px) {
+html {
+    background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
+    background-size: 100%;
+    background-color: hsl(257, 40%, 49%)
+}
+    }
+@media (min-width: 1440px) {
+html {
+    background: url("../../assets/images/bg-desktop.svg")no-repeat center center fixed;
+    background-size: contain;
+    background-color: hsl(257, 40%, 49%)
+}
+    }
