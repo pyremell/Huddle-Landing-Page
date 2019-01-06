@@ -1,3 +1,17 @@
 .header {
+
+  @mixin atSmall {
+    &__logo {
+      width: 148px;
+      margin: 40px 0 50px 42px;
+    }
+  }
+
+  @mixin atLarge {
+    &__logo {
+      width: 220px;
+      margin: 50px 0 85px 70px;
+    }
+  }
   
 }

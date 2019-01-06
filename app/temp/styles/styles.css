@@ -374,9 +374,18 @@ body {
   font-weight: 400;
   color: white;
 }
-.header {
-  
-}
+@media (min-width: 375px) {
+    .header__logo {
+      width: 148px;
+      margin: 40px 0 50px 42px;
+    }
+    }
+@media (min-width: 1440px) {
+    .header__logo {
+      width: 220px;
+      margin: 50px 0 85px 70px;
+    }
+    }
 @media (min-width: 375px) {
 html {
     background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
