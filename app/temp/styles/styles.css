@@ -375,7 +375,7 @@ body {
 }
 @media (min-width: 375px) {
     .header__logo {
-      width: 135px;
+      width: 130px;
       margin: 35px 0 50px 27px;
     }
     }
@@ -388,7 +388,7 @@ body {
 html {
   background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
   background-color: #674baf;
-  background-size: 400px;
+  background-size: 375px;
 }
 @media (min-width: 1440px) {
 html {
@@ -407,7 +407,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 27px;
+  margin: 0 35px;
 }
 .container__content-image,
   .container__content-header,
@@ -416,15 +416,15 @@ html {
   }
 .container__content-heading {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-weight: 700;
     text-align: center;
     letter-spacing: 1.3px;
     line-height: 1.5;
-    padding-top: 55px;
+    margin-top: 60px;
   }
 .container__content-info {
-    font-size: 1em;
+    font-size: 15px;
     font-weight: 400;
     text-align: center;
     letter-spacing: 1.2px;
@@ -441,4 +441,5 @@ html {
             box-shadow: 5px 5px 5px 0px rgba(86,66,143,1);
     font-family: 'Poppins', sans-serif;
     font-size: 0.8em;
+    margin-top: 10px;
   }

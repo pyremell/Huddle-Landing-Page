@@ -1,7 +1,7 @@
 html {
   background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
   background-color: $mainViolet;
-  background-size: 400px;
+  background-size: 375px;
   
   @mixin atLarge {
     background-size: 100%;
