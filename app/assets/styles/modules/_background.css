@@ -1,13 +1,10 @@
 html {
-  @mixin atSmall {
-    background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
-    background-size: 100%;
-    background-color: $mainViolet;
-  }
+  background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
+  background-color: $mainViolet;
+  background-size: 400px;
   
   @mixin atLarge {
-    background: url("../../assets/images/bg-desktop.svg")no-repeat center center fixed;
-    background-size: contain;
+    background-size: 100%;
     background-color: $mainViolet;
   }
 }

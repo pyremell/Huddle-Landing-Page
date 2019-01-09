@@ -2,8 +2,8 @@
 
   @mixin atSmall {
     &__logo {
-      width: 148px;
-      margin: 40px 0 50px 42px;
+      width: 135px;
+      margin: 35px 0 50px 27px;
     }
   }
 
