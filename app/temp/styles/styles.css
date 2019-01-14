@@ -388,12 +388,13 @@ body {
 html {
   background: url("../../assets/images/bg-mobile.svg")no-repeat top fixed;
   background-color: #674baf;
-  background-size: 375px;
+  background-size: 100%;
 }
 @media (min-width: 1440px) {
 html {
-    background-size: 100%;
-    background-color: #674baf
+    background: url("../../assets/images/bg-desktop.svg")no-repeat fixed;
+    background-color: #674baf;
+    background-size: contain
 }
     }
 .container {
@@ -443,6 +444,14 @@ html {
     font-size: 0.8em;
     margin-top: 10px;
   }
+@media (min-width: 800px) {
+.container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row
+}
+    }
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
