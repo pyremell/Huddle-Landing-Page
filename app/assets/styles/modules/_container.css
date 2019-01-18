@@ -43,5 +43,6 @@
 
   @mixin atMedium {
     flex-direction: row;
+    width: 100%;
   }
 }
