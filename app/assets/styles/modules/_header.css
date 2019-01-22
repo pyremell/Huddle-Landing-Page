@@ -7,7 +7,7 @@
     }
   }
 
-  @mixin atLarge {
+  @mixin atMedium {
     &__logo {
       width: 220px;
       margin: 50px 0 85px 70px;
