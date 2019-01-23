@@ -496,11 +496,6 @@ html {
     .container__content-info {
       text-align: left;
     }
-
-    .container__button {
-      width: 60px;
-      padding: 0 auto;
-    }
     }
 .footer {
   display: -webkit-box;

@@ -77,10 +77,5 @@
     &__content-info {
       text-align: left;
     }
-
-    &__button {
-      width: 60px;
-      padding: 0 auto;
-    }
   }
 }
